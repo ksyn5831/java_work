@@ -1,0 +1,16 @@
+public class MyData {
+    //    ctrl+shift+enter 줄 바꿈
+    static void main(String[] args) {
+//    간단한 축약어로 몸통을 만드는 것
+//    보일러 플레이트(boilerplate)
+//    변수의 선언: 타입 변수명 =값;
+        int age = 10;
+        System.out.println("나이: " + age);
+//    long 타입의 데이터는 항상 뒤에 L을 붙여야 한다.
+//    그렇지 않으면 인식하지 못한다.
+        long maxValue = 2200000000L;
+        int maxvalue = 200;
+//    long maxValue = 200L;
+        System.out.println("max value: " + maxValue);
+    }
+}
